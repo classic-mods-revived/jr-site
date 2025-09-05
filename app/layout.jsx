@@ -60,7 +60,7 @@ export default async function RootLayout({ children }) {
                 footer={footer}
             // ... Your additional layout options
         >
-            <DisableCopyPage />
+
             {children}
         </Layout>
         </body>
