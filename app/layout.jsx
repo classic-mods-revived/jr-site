@@ -2,6 +2,7 @@ import { Footer, Layout, Navbar } from 'nextra-theme-docs'
 import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import 'nextra-theme-docs/style.css'
+import DisableCopyPage from './_components/disable-copy-page'
 
 export const metadata = {
     // Define your metadata here
@@ -54,12 +55,12 @@ export default async function RootLayout({ children }) {
             banner={banner}
             navbar={navbar}
             pageMap={await getPageMap()}
-            docsRepositoryBase="https://github.com/eligibbs/jrsite/tree/main/docs"
             editLink=""
             feedback={{ content: null, labels: 'feedback' }}
                 footer={footer}
             // ... Your additional layout options
         >
+            <DisableCopyPage />
             {children}
         </Layout>
         </body>
