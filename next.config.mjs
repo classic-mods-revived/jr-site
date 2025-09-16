@@ -8,6 +8,7 @@ const nextConfig = {
     images: {
         unoptimized: true // mandatory, otherwise won't export
     },
+    trailingSlash: true
     //Optional: Change the output directory `out` -> `dist`
     //distDir: 'build'
 }
