@@ -16,7 +16,7 @@ export const metadata = {
 const banner = (
   <Banner storageKey="some-key">
     <a
-      href="https://modrinth.com/mod/jurassic-revived/version/0.9.7"
+      href="https://modrinth.com/mod/jurassicrevived/version/0.9.7"
       target="_blank"
       rel="noreferrer"
       style={{ textDecoration: 'underline', textUnderlineOffset: '2px' }}
