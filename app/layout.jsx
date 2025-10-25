@@ -40,7 +40,7 @@ const navbar = (
     <Navbar
         logo={<b>Jurassic Revived</b>}
         // ... Your additional navbar options
-        chatLink="https://discord.gg/eeqd6V3e"
+        chatLink="https://discord.gg/jurassicrevived"
     />
 )
 const footer = <Footer>{new Date().getFullYear()} © Jurassic Revived.</Footer>
