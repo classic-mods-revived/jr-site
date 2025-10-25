@@ -15,15 +15,25 @@ export const metadata = {
 
 const banner = (
   <Banner storageKey="some-key">
-    <a
-      href="https://modrinth.com/mod/jurassicrevived/version/0.9.7"
+      Jurassic Revived 0.101.0 is available on{' '}
+      <a
+      href="https://modrinth.com/mod/jurassic-revived/version/1.21.1-0.101.0"
       target="_blank"
       rel="noreferrer"
       style={{ textDecoration: 'underline', textUnderlineOffset: '2px' }}
     >
-      Jurassic Revived 0.9.7
+      Modrinth
     </a>{' '}
-     is released 🎉
+     and{' '}
+      <a
+          href="https://www.curseforge.com/minecraft/mc-mods/jurassic-revived/files/7129727"
+          target="_blank"
+          rel="noreferrer"
+          style={{ textDecoration: 'underline', textUnderlineOffset: '2px' }}
+      >
+           CurseForge
+      </a>
+      ! 🎉
   </Banner>
 )
 const navbar = (
